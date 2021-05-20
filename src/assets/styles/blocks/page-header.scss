@@ -1,0 +1,15 @@
+.page-header__wrapper {
+  box-sizing: border-box;
+  width: $desktop-width;
+  padding: 0 10rem;
+  margin: 0 auto;
+  background-color: #ccc0b0;
+  background-image:
+    url("../images/bg-header@1x.jpg");
+  background-size: auto 100%;
+
+  @include retina {
+    background-image:
+      url("../images/bg-header@2x.jpg");
+  }
+}

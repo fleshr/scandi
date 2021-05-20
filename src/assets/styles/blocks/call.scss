@@ -1,0 +1,43 @@
+.call__wrapper {
+  display: flex;
+  box-sizing: border-box;
+  width: $desktop-width;
+  min-height: 62.5rem;
+  padding: 0 10rem 0 18rem;
+  margin: 0 auto;
+  background-color: $light-brown;
+}
+
+.call__content {
+  flex-grow: 1;
+  padding: 5rem 0;
+}
+
+.call__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.call__subtitle {
+  margin: 0;
+  margin-top: 2rem;
+  color: rgba($white, .6);
+}
+
+.call__form {
+  margin-top: 3.5rem;
+}
+
+.call__map {
+  margin-left: 2rem;
+
+  iframe {
+    display: block;
+    height: 100%;
+    border: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.form__input {
+  display: block;
+  width: 100%;
+  padding: .8rem 0;
+  font: inherit;
+  color: $light-peach;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid $white;
+
+  &:not(:first-child) {
+    margin-top: 2.3rem;
+  }
+
+  &::placeholder {
+    color: $light-peach;
+  }
+}
+
+.form__button {
+  margin-top: 3.2rem;
+}

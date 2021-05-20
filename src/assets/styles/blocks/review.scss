@@ -1,0 +1,39 @@
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review__text {
+  width: calc(50% - 1rem);
+
+}
+
+.review__blockquote {
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+
+  cite {
+    display: block;
+    margin-top: 2.5rem;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+}
+
+.review__images {
+  width: calc(50% - 1rem);
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    &:not(:first-child) {
+      margin-top: 2.5rem;
+    }
+  }
+}

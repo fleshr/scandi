@@ -1,0 +1,52 @@
+.how-working__wrapper {
+  box-sizing: border-box;
+  width: $desktop-width;
+  padding: 1.5rem 10rem 8rem;
+  margin: 0 auto;
+  background-color: $peach;
+}
+
+.how-working__title {
+  margin: 0;
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.how-working__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: steps;
+}
+
+.how-working__item {
+  width: 28.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  counter-increment: steps;
+
+  &::before {
+    content: counter(steps);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    color: $white;
+    border-radius: 50%;
+    background-color: $light-brown;
+  }
+}

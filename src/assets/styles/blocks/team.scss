@@ -1,0 +1,40 @@
+.team__wrapper {
+  box-sizing: border-box;
+  width: $desktop-width;
+  padding: 5rem 18rem 2rem;
+  margin: 0 auto;
+  background-color: $peach;
+}
+
+.team__title {
+  margin: 0;
+  margin-bottom: 4rem;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.team__item {
+  width: 32rem;
+}
+
+.team__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.team__about {
+  margin: 0;
+}
